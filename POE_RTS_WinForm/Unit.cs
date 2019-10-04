@@ -11,7 +11,7 @@ namespace POE_RTS_WinForm
     public Unit(int aPositionX, int aPositionY, int aHealth, int aSpeed, int aAttack, string aFaction, char aSymbol)
     {
     }
-
+   
     public enum Direction { Up, Down, Left, Right};
     protected int xPosition;
     protected int yPosition;
